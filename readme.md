@@ -4,6 +4,11 @@ There are a few great examples out there on how to robustly implement Cortana de
 
 For all intents and purposes, this is the bare minimum code in a blank UWP app that is needed to be invoked via Cortana voice commands.
 
+## Contents
+
+- **RandomThought** - this is the project that includes the UWP application
+- **VoiceCommandService** - this is the project that includes the runtime component for the background service
+
 ## Build/Run
 
 1. Clone the repository to your local system
