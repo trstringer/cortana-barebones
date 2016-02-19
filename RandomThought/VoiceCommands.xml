@@ -1,0 +1,13 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<VoiceCommands xmlns="http://schemas.microsoft.com/voicecommands/1.2">
+  <CommandSet xml:lang="en-us" Name="RandomThoughtCommandSet_en-us">
+    <AppName> Random Thought </AppName>
+    <Example> Tell me something interesting </Example>
+    <Command Name="somethingInteresting">
+      <Example> Tell me something interesting </Example>
+      <ListenFor RequireAppName="BeforeOrAfterPhrase"> tell me something interesting </ListenFor>
+      <Feedback> Finding something interesting to say </Feedback>
+      <VoiceCommandService Target="AppCommand"/>
+    </Command>
+  </CommandSet>
+</VoiceCommands>
